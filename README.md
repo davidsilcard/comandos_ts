@@ -5,7 +5,7 @@
 npm init -y
 mkdir src
 touch src/index.ts
-npm i typescript tsx tsup -D
+npm i typescript tsx tsup @types/node -D
 npx tsc --init
 
 {
