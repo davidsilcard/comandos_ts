@@ -1,5 +1,7 @@
 # comandos_ts
 
+```js
+
 npm init -y
 mkdir src
 touch src/index.ts
@@ -26,3 +28,5 @@ npx tsc --init
 touch .gitignore
 node modules/
 .env
+
+```
