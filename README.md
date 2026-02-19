@@ -21,7 +21,7 @@ npx tsc --init
   "scripts": {
     "dist": "tsup src",
     "start:dev": "tsx --env-file=.env src/server.ts",
-    "start:watch": "tsx --env-file=.env watch src/server.ts",
+    "start:watch": "tsx watch --env-file=.env src/server.ts",
     "start:dist": "npm run dist && --env-file=.env node dist/server.cjs"
   },
 
