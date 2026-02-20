@@ -22,7 +22,7 @@ npx tsc --init
     "dist": "tsup src",
     "start:dev": "tsx --env-file=.env src/server.ts",
     "start:watch": "tsx watch --env-file=.env src/server.ts",
-    "start:dist": "npm run dist && --env-file=.env node dist/server.cjs"
+    "start:dist": "npm run dist && node --env-file=.env dist/server.js"
   },
 
 touch .gitignore
